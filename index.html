@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>woogie playlist</title>
+		<meta name="description" content="A horizontal smooth scroll layout powered by Locomotive Scroll">
+		<meta name="keywords" content="locomotive scroll, smooth scroll, horizontal, layout, web design, javascript, css">
+		<meta name="author" content="Codrops">
+		<link rel="icon" href="우기플리로고2.jpg">
+		<link rel="stylesheet" href="https://use.typekit.net/vxy2fer.css">
+		<link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
+		<link rel="stylesheet" type="text/css" href="demo4.7fb5a017.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-4 loading">
+	<!-- 상단 목록찰 -->
+		<div class="frame"> <!-- don't put fixed elements into the scroll container!  -->
+			<img class="frame__title" src="우기플리로고.png" style="width:100px; height:100px;">
+			<h1 class="frame__title" style="margin-left: 140px;">유튜브 속 모든 플레이리스트를 소개하고 추천하는 우기 플리 <br> 우기플리 바로가기 
+				<a href="https://www.youtube.com/channel/UC4Ne_WGhOeRZpZRFLmknMTA" target="_blank">woogie playlist</a></h1>
+
+			<!--
+			<div class="frame__demos">
+				<a class="frame__demo" href="index.html">Demo__01</a>
+				<a class="frame__demo" href="index2.html">Demo__02</a>
+				<a class="frame__demo" href="index3.html">Demo__03</a>
+				<a class="frame__demo frame__demo--current" href="index4.html">Demo__04</a>
+				<a class="frame__demo" href="index5.html">Demo__05</a>
+			</div>
+			<div class="frame__links">
+				<a href="https://tympanus.net/Development/ImageStackGrid/">Previous demo</a>
+				<a href="https://tympanus.net/codrops/?p=52157">Article</a>
+				<a href="https://github.com/codrops/HorizontalSmoothScrollLayout/">GitHub</a>
+			</div>
+		-->
+		</div>
+	
+
+		<main data-scroll-container="">
+
+			<div class="content">
+				<div class="gallery" id="gallery">
+					<div class="gallery__text"><span class="gallery__text-inner" data-scroll="" data-scroll-speed="3" data-scroll-direction="vertical">woogie<br></span><span data-scroll="" data-scroll-speed="-4" data-scroll-direction="vertical" class="gallery__text-inner">playlist</span></div>
+					
+					
+					
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(국이별1.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">저녁 9시 감성 한가득한 노래</h2>
+							<span class="gallery__item-number">01</span>
+							<p class="gallery__item-tags">
+								<span>#이별힙합</span>
+								<span>#감성힙합</span>
+								<span>#울고싶다</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=die4tPKtkxc" target="_blank" class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(락힙합.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">스트레스 풀고 싶은 날</h2>
+							<span class="gallery__item-number">02</span>
+							<p class="gallery__item-tags">
+								<span>#락스타</span>
+								<span>#다 부셔버려</span>
+								<span>#확 그냥</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=oRI4X4T6TqI&t=417s" target="_blank" class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(드라이브대표사진.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">나랑 야경 보러 가자 일단 타</h2>
+							<span class="gallery__item-number">03</span>
+							<p class="gallery__item-tags">
+								<span>#드라이브</span>
+								<span>#여행</span>
+								<span>#밤 드라이브</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=vuGOao28RPg&t=104s" target="_blank" class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(너랑.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">너랑 듣고 싶은 R&B팝 </h2>
+							<span class="gallery__item-number">04</span>
+							<p class="gallery__item-tags">
+								<span>#둥둥 떠다니는 느낌</span>
+								<span>#hot</span>
+								<span>#fire</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=K6oFKOia-7U&t=652s" target="_blank"class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -target="#gallery" -speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(외힙대표사진.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">헬스장에서 들으면 3대 500</h2>
+							<span class="gallery__item-number">05</span>
+							<p class="gallery__item-tags">
+								<span>#cloud</span>
+								<span>#lake</span>
+								<span>#frog</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=dCT4u35fQFw" target="_blank" class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="2.5">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(지태선침대위.png)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">썸남 썸녀와 한강에서 듣기 좋은 노래</h2>
+							<span class="gallery__item-number">06</span>
+							<p class="gallery__item-tags">
+								<span>#지태선</span>
+								<span>#지수</span>
+								<span>#sexy</span>
+							</p>
+							<a href="https://www.youtube.com/watch?v=bi0_LcqKTrc&t=134s" target="_blank" class="gallery__item-link">들어보기</a>
+						</figcaption>
+					</figure>
+
+<!--
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="0.5">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(6.dae49e4f.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Illywhacker</h2>
+							<span class="gallery__item-number">07</span>
+							<p class="gallery__item-tags">
+								<span>#water</span>
+								<span>#bottle</span>
+								<span>#hand</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="2">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(5.72557cf0.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Disenthral</h2>
+							<span class="gallery__item-number">08</span>
+							<p class="gallery__item-tags">
+								<span>#night</span>
+								<span>#stars</span>
+								<span>#moon</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="1">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(4.206ad742.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Abaya</h2>
+							<span class="gallery__item-number">09</span>
+							<p class="gallery__item-tags">
+								<span>#sun</span>
+								<span>#light</span>
+								<span>#air</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="0.5">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(3.4b150b5c.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Hallux</h2>
+							<span class="gallery__item-number">10</span>
+							<p class="gallery__item-tags">
+								<span>#vital</span>
+								<span>#fog</span>
+								<span>#close</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="2.5">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(2.c8c223d9.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Lablab</h2>
+							<span class="gallery__item-number">11</span>
+							<p class="gallery__item-tags">
+								<span>#cover</span>
+								<span>#bed</span>
+								<span>#window</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+
+
+					<figure class="gallery__item" data-scroll="" data-scroll-speed="1" -speed="2">
+						<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(1.376b664e.jpg)"></div></div>
+						<figcaption class="gallery__item-caption">
+							<h2 class="gallery__item-title">Momisom</h2>
+							<span class="gallery__item-number">12</span>
+							<p class="gallery__item-tags">
+								<span>#sad</span>
+								<span>#mouth</span>
+								<span>#tear</span>
+							</p>
+							<a class="gallery__item-link">explore</a>
+						</figcaption>
+					</figure>
+-->
+
+<!--댓글기능-->
+
+					<div class="gallery__text"><span class="gallery__text-inner" data-scroll="" data-scroll-speed="-4" data-scroll-direction="vertical">See you</span><span data-scroll="" data-scroll-speed="3" data-scroll-direction="vertical" class="gallery__text-inner">next time.</span></div>
+				</div>
+			</div>
+		</main>
+		<svg class="cursor" width="20" height="20" viewBox="0 0 20 20">
+			<circle class="cursor__inner" cx="10" cy="10" r="5"></circle>
+		</svg>
+		<script src="demo4.e22d7780.js"></script>
+
+		<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://www-jeongukcloud-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</body>
+</html>
